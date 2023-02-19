@@ -1,0 +1,28 @@
+{
+  "name": "pptr-jest-project",
+  "version": "1.0.0",
+  "description": "Project for learning test automation using Puppeteer-Jest",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "jest --forceExit",
+    "test:login": "jest --forceExit ./tests/login.test.js",
+    "test:navbar": "jest --forceExit ./tests/navbar.test.js",
+    "test:registration": "jest --forceExit ./tests/registration.test.js",
+    "test:iframe": "jest --forceExit ./tests/iframe.test.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "jest",
+    "testing"
+  ],
+  "author": "Michał Banaszyk",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.2",
+    "jest": "^29.4.2",
+    "jest-puppeteer": "^7.0.0",
+    "puppeteer": "^19.6.3"
+  }
+}
